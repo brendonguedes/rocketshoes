@@ -25,6 +25,11 @@ module.exports = {
   ],
   rules: {
     "prettier/prettier": "error",
+    'react/jsx-filename-extension': [
+      'warn',
+      { extensions: ['.jsx', '.js'] }
+    ],
+    'import/prefer-default-export': 'off',
     "class-methods-use-this": "off",
     "no-param-reassign": "off",
     "camelcase": "off",
