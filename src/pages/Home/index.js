@@ -22,7 +22,6 @@ export default class Home extends Component {
     this.setState({ products: data })
   }
 
-
   render() {
     const { products } = this.state;
 
