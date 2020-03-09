@@ -3,11 +3,7 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  extends: [
-    'plugin:react/recommended',
-    'airbnb',
-    'prettier',
-  ],
+  extends: ['plugin:react/recommended', 'airbnb', 'prettier'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
@@ -19,21 +15,15 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: [
-    'react',
-    'prettier',
-  ],
+  plugins: ['react', 'prettier'],
   rules: {
-    "prettier/prettier": "error",
-    'react/jsx-filename-extension': [
-      'warn',
-      { extensions: ['.jsx', '.js'] }
-    ],
+    'prettier/prettier': 'error',
+    'react/jsx-filename-extension': ['warn', { extensions: ['.jsx', '.js'] }],
     'import/prefer-default-export': 'off',
-    'no-console': ["error", { allow: [ "tron"]}],
-    "class-methods-use-this": "off",
-    "no-param-reassign": "off",
-    "camelcase": "off",
-    "no-unused-vars": ["error", { "argsIgnorePattern": "next" }],
+    'no-console': ['error', { allow: ['tron'] }],
+    'class-methods-use-this': 'off',
+    'no-param-reassign': 'off',
+    'camelcase': 'off',
+    'no-unused-expressions': ['error', { allowTaggedTemplates: true }],
   },
 };
