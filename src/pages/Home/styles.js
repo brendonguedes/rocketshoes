@@ -19,6 +19,10 @@ export const ProductList = styled.ul`
       max-width: 250px;
     }
 
+    &:hover img {
+      transform: scale(1.05);
+    }
+
     > strong {
       font-size: 16px;
       line-height: 20px;
