@@ -24,6 +24,7 @@ module.exports = {
     'class-methods-use-this': 'off',
     'no-param-reassign': 'off',
     'camelcase': 'off',
+    'react/prop-types': 'off',
     'no-unused-expressions': ['error', { allowTaggedTemplates: true }],
   },
 };
