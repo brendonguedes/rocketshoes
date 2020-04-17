@@ -28,5 +28,6 @@ module.exports = {
     'no-unused-expressions': ['error', { allowTaggedTemplates: true }],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
+    'react/jsx-one-expression-per-line': 'off',
   },
 };
