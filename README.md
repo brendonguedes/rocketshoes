@@ -7,7 +7,3 @@ A virtual tennis store. Made with ReactJS, Redux, Redux Saga, Styled-components 
 ##### Feito com :purple_heart: por Brendon Guedes.
 
 ##### Considere deixar uma :star: neste projeto :heart_eyes:
-
-<img src="https://github.com/brendonguedes/rocketshoes/blob/master/src/assets/images/demo-rocketshoes.gif">
-
-
