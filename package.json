@@ -25,11 +25,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && json-server data.json -p 3333 -d 1000",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "api:server": "json-server data.json -p 3333 -d 1000",
-    "deploy": "react-scripts start && json-server data.json -p 3333 -d 1000"
+    "api:server": "json-server data.json -p 3333 -d 1000"    
   },
   "browserslist": {
     "production": [
